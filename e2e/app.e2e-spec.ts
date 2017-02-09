@@ -7,8 +7,8 @@ describe('angular-cli App', function() {
     page = new AngularCliPage();
   });
 
-  it('should display message saying app works', () => {
+  it('should display message saying Let\'s get started with Angular2', () => {
     page.navigateTo();
-    expect(page.getParagraphText()).toEqual('app works!');
+    expect(page.getParagraphText()).toEqual('Let\'s get started with Angular2');
   });
 });
